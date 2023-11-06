@@ -73,7 +73,7 @@ public class Main {
     }
 
     public static void task9() {
-        double depositTotal = 0;
+        double depositTotal = 0.0;
         int deposit = 29_000;
         for (int i = 1; i <= 12; i++) {
             depositTotal += deposit + (deposit * 0.01);
